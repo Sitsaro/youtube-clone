@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Youtube Clone
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+    </head>
+        <body>
+            <header class="header">
+                <div class="left-section">
+                    <div class="hamburger-menu">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                    <div class="sidebar"></div>
+                    <img class="youtube-logo" src="icons/youtube-logo.svg">
+                </div>
+
+                <div class="middle-section">
+                    <input class="search-bar" type="text" placeholder="Search">
+                    <button class="search-button">
+                        <img class="search-icon" src="icons/search.svg">
+                        <div class="tooltip">
+                            Search
+                        </div>
+                    </button>
+                    <button class="voice-button">
+                        <img class="voice-icon" src="icons/voice-search-icon.svg">
+                        <div class="tooltip">
+                            Search with your voice
+                        </div>
+                    </button>
+                </div>
+
+                <div class="right-section">
+                    <div class="upload-icon-container">
+                        <img class="upload-icon" src="icons/upload.svg">
+                        <div class="tooltip">
+                            Create
+                        </div>
+                    </div>
+                    <div class="apps-icon-container">
+                        <img class="apps-icon" src="icons/youtube-apps.svg">
+                        <div class="tooltip">
+                            Youtube apps
+                        </div>
+                    </div>
+                    <div class="notification-icon-container2">
+                        <div class="tooltip">
+                            Notifications
+                        </div>
+                        <div class="notification-icon-container">
+                            <img class="notification-icon" src="icons/notifications.svg">
+                            <div class="notification-count">
+                                3
+                            </div>
+                        </div>
+                    </div>             
+                        <img class="user-picture" src="channel-pic/channels-pic-main.jpg">                                 
+                </div>             
+            </header>
+                <div class="dark-page"></div>
+                <div class="slider-pane">
+                    <div class="sidebar-link">
+                        <img class="side-image" src="icons/settings.png">
+                        <div class="side-option">
+                            Logout
+                        </div>
+                    </div>
+                    <div class="sidebar-link">
+                        <img class="side-image" src="icons/liked.jpg">
+                        <div class="side-option">
+                            Help
+                        </div>
+                    </div>
+                </div>
+                
+                 <nav class="sidebar-top">
+                        <div class="sidebar-link">
+                            <img class="side-image" src="icons/home.svg">
+                            <div class="side-option">
+                                Home
+                            </div>
+                        </div>
+                        <div class="sidebar-link">
+                            <img class="side-image" src="icons/explore.svg">
+                            <div class="side-option">
+                                Explore
+                            </div>
+                        </div>
+                        <div class="sidebar-link">
+                            <img class="side-image" src="icons/subscriptions.svg">
+                            <div class="side-option">
+                                Subscriptions
+                            </div>
+                        </div>
+                        <div class="sidebar-link">
+                            <img class="side-image" src="icons/originals.svg">
+                            <div class="side-option">
+                                Originals
+                            </div>
+                        </div>
+                        <div class="sidebar-link">
+                            <img class="side-image" src="icons/youtube-music.svg">
+                            <div class="side-option">
+                                Youtube Music
+                            </div>
+                        </div>
+                        <div class="sidebar-link">
+                            <img class="side-image" src="icons/library.svg">
+                            <div class="side-option">
+                                Library
+                            </div>
+                        </div>
+                        <hr>
+                        <span class="sidebar-link">
+                            <img class="side-image" src="icons/history.png">
+                            <div class="side-option">History</div>
+                        </span>
+                        <span class="sidebar-link">
+                            <img class="side-image" src="icons/you videos.png">
+                            <div class="side-option">
+                                Your Videos
+                            </div>
+                        </span>
+                        <span class="sidebar-link">
+                            <img class="side-image" src="icons/watch later.webp">
+                            <div class="side-option">
+                                Watch Later
+                            </div>
+                        </span>
+                        <span class="sidebar-link">
+                            <img class="side-image" src="icons/download--v1.png">
+                            <div class="side-option">
+                                Downloads
+                            </div>
+                        </span>
+                        <span class="sidebar-link">
+                            <img class="side-image" src="icons/liked.jpg">
+                            <div class="side-option">
+                                Liked Videos
+                            </div>
+                        </span>
+                        <span class="sidebar-link">
+                            <img class="side-image" src="icons/library.svg">
+                            <div class="side-option">
+                                Library
+                            </div>
+                        </span>
+                        <span class="sidebar-link">
+                            <img class="side-image" src="icons/settings.png">
+                            <div class="side-option">
+                                Settings
+                            </div>
+                        </span>
+                </nav>
+            <main>
+                <div class="video-grid">
+                    <div class="video-preview">
+                        <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                            <div class="thumbnail-block">
+                                <img class="thumbnail1" src="Thumbnails/thumbnail-1.webp">
+                                <div class="video-time">
+                                    14:20
+                                </div>
+                            </div>
+                        </a>
+                        <div class="video-info-grid">
+                            <div class="channel-picture">
+                                <img class="profile-picture" src="channel-pic/channel-1.jpeg">
+                            </div>
+                            <div class="video-info">
+                                <p class="video-title">
+                                    <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                                        Talking Tech and AI with Google CEO Sundar Pichai!
+                                    </a>
+                                </p>
+                                <p class="video-author">
+                                    Marques Brownlee
+                                </p>
+                                <p class="video-stat">
+                                    3.4M views &#183 6 months ago
+                                </p>
+                            </div>                 
+                        </div>         
+                    </div>
+        
+                    <div class="video-preview">
+                        <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+                            <div class="thumbnail-block">
+                                <img class="thumbnail1" src="Thumbnails/thumbnail-2.webp">
+                                <div class="video-time">
+                                    8:22
+                                </div>
+                            </div>
+                        </a>
+                        <div class="video-info-grid">
+                            <div class="channel-picture">
+                                <img class="profile-picture" src="channel-pic/channel-2.jpeg">
+                            </div>
+                            <div class="video-info">
+                                <p class="video-title">
+                                    <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+                                        Try Not To Laugh Challenge #9
+                                    </a>
+                                </p>
+                                <p class="video-author">
+                                    Markiplier
+                                </p>
+                                <p class="video-stat">
+                                    19M views &#183 4 years ago
+                                </p>
+                            </div>                 
+                        </div>         
+                    </div>
+        
+                    <div class="video-preview">
+                        <a href="https://www.youtube.com/watch?v=0gFCzXRJzXE">
+                            <div class="thumbnail-block">
+                                <img class="thumbnail1" src="Thumbnails/thumbnail-3.webp">
+                                <div class="video-time">
+                                    1:39:30
+                                </div>
+                            </div>
+                        </a>
+                        <div class="video-info-grid">
+                            <div class="channel-picture">
+                                <img class="profile-picture" src="channel-pic/channel-3.jpeg">
+                            </div>
+                            <div class="video-info">
+                                <p title="The Drop | Tyler Herro Makes History, Another Grizzlies Dubskiii & Hammacher Schlemmer Gifts! &#127873" class="video-title">
+                                    <a href="https://www.youtube.com/watch?v=0gFCzXRJzXE">
+                                        The Drop | Tyler Herro Makes History, Another Grizzlies Dubskiii & Hammacher Schlemmer Gifts! &#127873
+                                    </a>                              
+                                </p>
+                                <p class="video-author">
+                                    No Dunks
+                                </p>
+                                <p class="video-stat">
+                                    536k views &#183 1 month ago
+                                </p>
+                            </div>                 
+                        </div>         
+                    </div>
+        
+                    <div class="video-preview">
+                        <a href="https://www.youtube.com/watch?v=L4bYpQcxZXU">
+                            <div class="thumbnail-block">
+                                <img class="thumbnail1" src="Thumbnails/thumbnail-4.webp">
+                                <div class="video-time">
+                                    25:18
+                                </div>
+                            </div>
+                        </a>
+                        <div class="video-info-grid">
+                            <div class="channel-picture">
+                                <img class="profile-picture" src="channel-pic/channel-4.jpeg">
+                            </div>
+                            <div class="video-info">
+                                <p title="THE CALLISTO PROTOCOL PS5 Walkthrough Gameplay Part 14 - MAX & JACOB'S SHIP (FULL GAME)" class="video-title">
+                                    <a href="https://www.youtube.com/watch?v=L4bYpQcxZXU">
+                                        THE CALLISTO PROTOCOL PS5 Walkthrough Gameplay Part 14 - MAX & JACOB'S SHIP (FULL GAME)
+                                    </a>
+                                </p>
+                                <p class="video-author">
+                                    theRadBrad
+                                </p>
+                                <p class="video-stat">
+                                    80k views &#183 2 days ago
+                                </p>
+                            </div>                 
+                        </div>         
+                    </div>
+        
+                    <div class="video-preview">
+                        <a href="https://www.youtube.com/watch?v=3DrvRo8gz_I">
+                            <div class="thumbnail-block">
+                                <img class="thumbnail1" src="Thumbnails/thumbnail-5.webp">
+                                <div class="video-time">
+                                    11:27:33
+                                </div>
+                            </div>
+                        </a>
+                        <div class="video-info-grid">
+                            <div class="channel-picture">
+                                <img class="profile-picture" src="channel-pic/channel-5.jpeg">
+                            </div>
+                            <div class="video-info">
+                                <p title="Relaxing Christmas Ambience &#127873 Christmas Music 2023, Christmas Carols, Heavenly Christmas Music" class="video-title">
+                                    <a href="https://www.youtube.com/watch?v=3DrvRo8gz_I">
+                                        Relaxing Christmas Ambience &#127873 Christmas Music 2023, Christmas Carols, Heavenly Christmas Music
+                                    </a>
+                                </p>
+                                <p class="video-author">
+                                    Piano Musica
+                                </p>
+                                <p class="video-stat">
+                                    53k views &#183 3 weeks ago
+                                </p>
+                            </div>                 
+                        </div>         
+                    </div>
+        
+                    <div class="video-preview">
+                        <a href="https://www.youtube.com/watch?v=h7WnRJTVReI">
+                            <div class="thumbnail-block">
+                                <img class="thumbnail1" src="Thumbnails/thumbnail-6.webp">
+                                <div class="video-time">
+                                    7:06
+                                </div>
+                            </div>
+                        </a>
+                        <div class="video-info-grid">
+                            <div class="channel-picture">
+                                <img class="profile-picture" src="channel-pic/channel-6.jpeg">
+                            </div>
+                            <div class="video-info">
+                                <p class="video-title">
+                                    <a href="https://www.youtube.com/watch?v=h7WnRJTVReI">
+                                        Collected Miscellany - "Nilou: Lotus Waves" | Genshin Impact
+                                    </a>
+                                </p>
+                                <p class="video-author">
+                                    Genshin Impact
+                                </p>
+                                <p class="video-stat">
+                                    537k views &#183 2 months ago
+                                </p>
+                            </div>                 
+                        </div>         
+                    </div>
+        
+                    <div class="video-preview">
+                        <a href="https://www.youtube.com/watch?v=7z8KJKth09w">
+                            <div class="thumbnail-block">
+                                <img class="thumbnail1" src="Thumbnails/thumbnail-7.webp">
+                                <div class="video-time">
+                                    9:19
+                                </div>
+                            </div>
+                        </a>
+                        <div class="video-info-grid">
+                            <div class="channel-picture">
+                                <img class="profile-picture" src="channel-pic/channel-7.jpeg">
+                            </div>
+                            <div class="video-info">
+                                <p class="video-title">
+                                    <a href="https://www.youtube.com/watch?v=7z8KJKth09w">
+                                        Kojima Productions New Studio Tour
+                                    </a>
+                                </p>
+                                <p class="video-author">
+                                    IGN
+                                </p>
+                                <p class="video-stat">
+                                    87k views &#183 2 days ago
+                                </p>
+                            </div>                 
+                        </div>         
+                    </div>
+        
+                    <div class="video-preview">
+                        <a href="https://www.youtube.com/watch?v=wobQWmrg7N4">
+                            <div class="thumbnail-block">
+                                <img class="thumbnail1" src="Thumbnails/thumbnail-8.webp">
+                                <div class="video-time">
+                                    17.31
+                                </div>
+                            </div>
+                        </a>
+                        <div class="video-info-grid">
+                            <div class="channel-picture">
+                                <img class="profile-picture" src="channel-pic/channel-8.jpeg">
+                            </div>
+                            <div class="video-info">
+                                <p title="INFINITE MONSTER REBORN - Joey's NEW RED-EYES DECK Can't Be STOPPED! - Yu-Gi-Oh Master Duel Ranked!" class="video-title">
+                                    <a href="https://www.youtube.com/watch?v=wobQWmrg7N4">
+                                        INFINITE MONSTER REBORN - Joey's NEW RED-EYES DECK Can't Be STOPPED! - Yu-Gi-Oh Master Duel Ranked!
+                                    </a>
+                                </p>
+                                <p class="video-author">
+                                    TeamSamuraiX1
+                                </p>
+                                <p class="video-stat">
+                                    96k views &#183 2 days ago
+                                </p>
+                            </div>                 
+                        </div>         
+                    </div>
+                </div>
+            </main>
+            <script src="youtube.js" type="text/javascript"></script>          
+        </body>    
+</html>
